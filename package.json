@@ -1,0 +1,41 @@
+{
+  "name": "page-preview",
+  "version": "1.0.0",
+  "description": "Quickly see how each page looks at a glance and manage your site more efficiently.",
+  "author": {
+    "name": "handyplugins",
+    "email": "support@handyplugins.co",
+    "url": "https://handyplugins.co",
+    "role": "developer"
+  },
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "start": "composer install && npm install --production=false && npm run build",
+    "watch": "10up-toolkit watch",
+    "build": "10up-toolkit build",
+    "format-js": "10up-toolkit format-js",
+    "lint-js": "10up-toolkit lint-js",
+    "lint-style": "10up-toolkit lint-style",
+    "test": "10up-toolkit test-unit-jest",
+    "make-pot": "wp i18n make-pot . languages/page-preview.pot --domain='page-preview'",
+    "make-json": "wp i18n make-json languages --no-purge",
+    "build-release": "npm install --production=false && composer install && npm run build && npm run make-pot",
+    "lint-release": "npm install && composer install && npm run lint"
+  },
+  "devDependencies": {
+    "@wpmudev/shared-ui": "2.12.24",
+    "10up-toolkit": "^5.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "10up-toolkit": {
+    "entry": {
+      "admin-style": "./assets/css/admin/admin-style.css"
+    },
+    "wpDependencyExternals": false
+  }
+}

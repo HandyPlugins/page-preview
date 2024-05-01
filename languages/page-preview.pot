@@ -1,0 +1,181 @@
+# Copyright (C) 2024 HandyPlugins
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Page Preview 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/page-preview\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-01T17:43:49+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: page-preview\n"
+
+#. Plugin Name of the plugin
+#: plugin.php
+#: includes/settings.php:74
+#: includes/settings.php:75
+#: includes/settings.php:95
+msgid "Page Preview"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://handyplugins.co/page-preview/"
+msgstr ""
+
+#. Description of the plugin
+#: plugin.php
+msgid "Bring page previews to public posts on your WP Admin."
+msgstr ""
+
+#. Author of the plugin
+#: plugin.php
+msgid "HandyPlugins"
+msgstr ""
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://handyplugins.co/"
+msgstr ""
+
+#: includes/classes/PagePreviewer.php:114
+msgid "Create Page Preview"
+msgstr ""
+
+#: includes/classes/PagePreviewer.php:115
+msgid "Delete Page Preview"
+msgstr ""
+
+#: includes/classes/PagePreviewer.php:165
+msgid "Preview"
+msgstr ""
+
+#: includes/classes/PagePreviewer.php:297
+msgid "Previews are being generated and will appear shortly. Please refresh after a few moments."
+msgstr ""
+
+#: includes/classes/PagePreviewer.php:305
+msgid "Previews have been deleted."
+msgstr ""
+
+#: includes/classes/PagePreviewer.php:326
+msgid "Invalid post type"
+msgstr ""
+
+#: includes/classes/PagePreviewer.php:330
+msgid "Post is not publicly viewable"
+msgstr ""
+
+#: includes/classes/PagePreviewer.php:334
+msgid "Page is excluded"
+msgstr ""
+
+#: includes/classes/PagePreviewer.php:406
+msgid "No preview generated"
+msgstr ""
+
+#: includes/settings.php:108
+msgid "Settings"
+msgstr ""
+
+#: includes/settings.php:113
+#: includes/settings.php:278
+msgid "Update settings"
+msgstr ""
+
+#: includes/settings.php:123
+msgid "Post Types"
+msgstr ""
+
+#: includes/settings.php:148
+msgid "Select the post types that you want to enable Page Preview for."
+msgstr ""
+
+#: includes/settings.php:158
+msgid "Crop Screenshots"
+msgstr ""
+
+#: includes/settings.php:174
+msgid "Crop preview images."
+msgstr ""
+
+#: includes/settings.php:179
+msgid "When this option is enabled, it crops the screenshot based on the height of the preview dimension. If you want to capture a full page screenshot keep this option disabled."
+msgstr ""
+
+#: includes/settings.php:189
+msgid "Zoom"
+msgstr ""
+
+#: includes/settings.php:204
+msgid "Enable zoom on hovering preview images."
+msgstr ""
+
+#: includes/settings.php:209
+msgid "Enable this option to allow images to be enlarged when hovered over. If disabled, hovering will not affect the image size."
+msgstr ""
+
+#: includes/settings.php:219
+msgid "Delay"
+msgstr ""
+
+#: includes/settings.php:234
+msgid "Delay in seconds before capturing the screenshot. This is useful if your site has animations or changes that occur after the initial load."
+msgstr ""
+
+#: includes/settings.php:244
+msgid "Featured Image Fallback"
+msgstr ""
+
+#: includes/settings.php:259
+msgid "Use featured image as fallback."
+msgstr ""
+
+#: includes/settings.php:263
+msgid "Enable this option to display the featured image when the page is unpublished or the page preview image does not exist. Applies only if a featured image exists."
+msgstr ""
+
+#: includes/settings.php:282
+msgid "Delete all preview data"
+msgstr ""
+
+#. translators: %s: HandyPlugins URL
+#: includes/settings.php:303
+msgid "Made with <i class=\"sui-icon-heart\"></i> by <a href=\"%s\" rel=\"noopener\" target=\"_blank\">HandyPlugins</a>"
+msgstr ""
+
+#: includes/settings.php:313
+msgid "FAQ"
+msgstr ""
+
+#: includes/settings.php:314
+msgid "Blog"
+msgstr ""
+
+#: includes/settings.php:315
+msgid "Support"
+msgstr ""
+
+#: includes/settings.php:320
+msgid "HandyPlugins GitHub URL"
+msgstr ""
+
+#: includes/settings.php:324
+msgid "HandyPlugins Twitter URL"
+msgstr ""
+
+#: includes/settings.php:363
+msgid "All preview files and associated metadata have been successfully deleted!"
+msgstr ""
+
+#: includes/settings.php:389
+msgid "Settings saved."
+msgstr ""
+
+#: includes/settings.php:408
+msgid "You cannot use Page Preview on localhost. Screenshot capturing service only works for the public accessible domains."
+msgstr ""
