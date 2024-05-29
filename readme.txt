@@ -31,6 +31,8 @@ Page Preview, provides a visual enhancement to your WordPress dashboard by autom
 
 == Privacy Policy ==
 
+This plugin makes HTTP requests to `https://screenshot.handyplugins.co` to generate screenshots of your pages.
+
 Our screenshot capturing service requires the URL of the public page to generate screenshots. While we do not collect personal information directly from users, we do record IP addresses and domain names from the servers initiating the requests. This data is used exclusively for rate limiting and to prevent abuse of our service, ensuring fair usage and stability.
 
 = Contributing & Bug Report =
