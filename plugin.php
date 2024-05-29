@@ -1,7 +1,6 @@
 <?php
 /**
  * Plugin Name:       Page Preview
- * Plugin URI:        https://handyplugins.co/
  * Description:       Adds screenshots to WordPress post listings, allowing you to quickly visualize and manage your pages directly from the admin panel.
  * Version:           1.0
  * Requires at least: 5.0
