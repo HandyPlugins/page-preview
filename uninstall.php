@@ -12,7 +12,7 @@ if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 }
 
 
-require_once 'plugin.php';
+require_once 'page-preview.php';
 
 // clean up preview data
 if ( is_multisite() ) {
