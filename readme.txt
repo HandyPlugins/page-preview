@@ -63,7 +63,7 @@ Yes, the plugin includes CLI support. You can manage screenshot generation throu
 
 = Are the screenshots responsive? =
 
-es, the screenshots are responsive. The plugin generates screenshots in multiple dimensions and uses srcset attributes, ensuring that the previews are optimized for various screen sizes, from desktops to mobile devices.
+Yes, the screenshots are responsive. The plugin generates screenshots in multiple dimensions and uses srcset attributes, ensuring that the previews are optimized for various screen sizes, from desktops to mobile devices.
 
 = How does this plugin improve my workflow? =
 
