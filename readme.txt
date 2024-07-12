@@ -91,7 +91,7 @@ Yes, to ensure optimal performance and server stability, our service supports th
 
 == Changelog ==
 
-= 1.0 (May 01, 2024) =
+= 1.0 (July 12, 2024) =
 * Initial release
 
 == Upgrade Notice ==
