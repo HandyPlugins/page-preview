@@ -420,7 +420,7 @@ class PagePreviewer {
 		$filesystem->rmdir( $preview_dir, true );
 
 		$wpdb->delete( // phpcs:ignore WordPress.DB.DirectDatabaseQuery.NoCaching,WordPress.DB.DirectDatabaseQuery.DirectQuery
-			$wpdb->usermeta,
+			$wpdb->postmeta,
 			[
 				'meta_key' => PREVIEW_URL_META_KEY, // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_key
 			]
