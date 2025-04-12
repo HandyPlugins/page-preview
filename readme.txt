@@ -91,7 +91,7 @@ Yes, to ensure optimal performance and server stability, our service supports th
 
 == Changelog ==
 
-= 1.0.1 (April 12, 2025) =
+= 1.0.2 (April 12, 2025) =
 * Tested with WP 6.8
 * Dependency updates.
 
