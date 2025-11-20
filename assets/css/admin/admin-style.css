@@ -12,12 +12,12 @@
 	overflow: hidden;
 	position: relative;
 	text-align: center;
-	transition: transform .2s, box-shadow .2s; /* Smooth transitions for transformations */
+	transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions for transformations */
 }
 
 .zoom:hover {
 	border: 1px solid #d5d5d5;
-	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 	overflow: visible; /* Allow the image to overflow during zoom */
 	transform: scale(3); /* Scale the container */

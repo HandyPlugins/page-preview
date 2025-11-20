@@ -2,8 +2,8 @@
 /**
  * Plugin Name:       Page Preview
  * Description:       Adds screenshots to WordPress post listings, allowing you to quickly visualize and manage your pages directly from the admin panel.
- * Version:           1.0.2
- * Requires at least: 5.0
+ * Version:           1.1
+ * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            HandyPlugins
  * Author URI:        https://handyplugins.co/
@@ -18,7 +18,7 @@
 namespace PagePreview;
 
 // Useful global constants.
-define( 'PAGE_PREVIEW_VERSION', '1.0.2' );
+define( 'PAGE_PREVIEW_VERSION', '1.1' );
 define( 'PAGE_PREVIEW_DB_VERSION', '1.0' );
 define( 'PAGE_PREVIEW_PLUGIN_FILE', __FILE__ );
 define( 'PAGE_PREVIEW_URL', plugin_dir_url( __FILE__ ) );
@@ -73,9 +73,9 @@ require_once PAGE_PREVIEW_INC . 'utils.php';
 require_once PAGE_PREVIEW_INC . 'settings.php';
 
 
-$network_activated = Utils\is_network_wide( PAGE_PREVIEW_PLUGIN_FILE );
+$page_preview_is_network_activated = Utils\is_network_wide( PAGE_PREVIEW_PLUGIN_FILE );
 if ( ! defined( 'PAGE_PREVIEW_IS_NETWORK' ) ) {
-	define( 'PAGE_PREVIEW_IS_NETWORK', $network_activated );
+	define( 'PAGE_PREVIEW_IS_NETWORK', $page_preview_is_network_activated );
 }
 
 /**

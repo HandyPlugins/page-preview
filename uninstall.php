@@ -16,9 +16,9 @@ require_once 'page-preview.php';
 
 // clean up preview data
 if ( is_multisite() ) {
-	$sites = get_sites();
-	foreach ( $sites as $site ) {
-		switch_to_blog( $site->blog_id );
+	$page_preview_sites = get_sites();
+	foreach ( $page_preview_sites as $page_preview_site ) {
+		switch_to_blog( $page_preview_site->blog_id );
 		\PagePreview\PagePreviewer::delete_all_preview_data();
 		restore_current_blog();
 	}
