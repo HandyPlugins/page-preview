@@ -45,27 +45,15 @@ jobs:
           exclude-directories: |
             tests
             bin
-            .github
             .wordpress-org
             node_modules
             vendor
             includes/package
             assets
             dist
-          exclude-files: |
-            .*
-            .phpcs.xml.dist
-            .gitignore
-            .distignore
-            .editorconfig
-            composer.json
-            composer.lock
-            package.json
-            package-lock.json
-            phpunit.xml
-            phpunit.xml.dist
-            phpcs.xml
           ignore-codes: |
+            hidden_files
+            badly_named_files
             WordPress.WP.I18n.NonSingularStringLiteralDomain
             WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound
             WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound
