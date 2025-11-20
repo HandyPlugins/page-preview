@@ -8,11 +8,11 @@
 			<directory suffix="Tests.php">./tests/phpunit</directory>
 		</testsuite>
 	</testsuites>
-	<filter>
-		<whitelist>
+	<coverage>
+		<include>
 			<directory suffix=".php">./includes</directory>
-		</whitelist>
-	</filter>
+		</include>
+	</coverage>
 	<php>
 		<ini name="error_reporting" value="32767" />
 		<ini name="display_errors" value="1" />

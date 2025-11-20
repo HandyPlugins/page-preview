@@ -25,3 +25,7 @@ Session.vim
 Thumbs.db
 Desktop.ini
 dist/js/*.txt
+
+# PHPUnit
+.phpunit.result.cache
+coverage
