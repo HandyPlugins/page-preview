@@ -22,11 +22,11 @@
     "make-json": "wp i18n make-json languages --no-purge",
     "build-release": "npm install --production=false && composer install && npm run build && npm run make-pot",
     "lint-release": "npm install && composer install && npm run lint",
-    "plugin-check": "wp plugin check page-preview --exclude-directories=tests,bin,.github,.wordpress-org,node_modules,vendor,includes/package,assets,dist --exclude-files='.*'"
+    "plugin-check": "wp plugin check page-preview --exclude-directories=tests,bin,.github,.wordpress-org,node_modules,vendor,includes/package,assets,dist --exclude-files='.*' --ignore-warnings --ignore-codes=hidden_files"
   },
   "devDependencies": {
     "@wpmudev/shared-ui": "2.12.24",
-    "10up-toolkit": "^6.0"
+    "10up-toolkit": "^6.5"
   },
   "engines": {
     "node": ">=18.0.0"
