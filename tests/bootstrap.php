@@ -26,6 +26,17 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 require_once __DIR__ . '/../tests/phpunit/test-tools/TestCase.php';
 
+// Load plugin files needed for testing
+require_once __DIR__ . '/../includes/constants.php';
+require_once __DIR__ . '/../includes/utils.php';
+
+// Mock WordPress functions that are not mockable by WP_Mock
+if ( ! function_exists( 'absint' ) ) {
+	function absint( $maybeint ) {
+		return abs( (int) $maybeint );
+	}
+}
+
 WP_Mock::setUsePatchwork( true );
 WP_Mock::bootstrap();
 WP_Mock::tearDown();
