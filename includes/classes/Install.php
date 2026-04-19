@@ -7,6 +7,10 @@
 
 namespace PagePreview;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 use const PagePreview\Constants\DB_VERSION_OPTION;
 
 /**

@@ -2,9 +2,9 @@
 Contributors:      handyplugins, m_uysl
 Tags:              page preview, preview, screenshot, page screenshot
 Requires at least: 6.0
-Tested up to:      6.9
+Tested up to:      7.0
 Requires PHP:      7.4
-Stable tag:        1.1
+Stable tag:        1.2
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 Donate link:       https://handyplugins.co/donate/
@@ -39,6 +39,19 @@ Our screenshot capturing service requires the URL of the public page to generate
 
 Bug reports and pull requests are welcome on [GitHub](https://github.com/HandyPlugins/page-preview).
 
+
+== More from HandyPlugins ==
+
+If Page Preview is helpful on your site, you may also want to explore our other WordPress plugins:
+
+* <a href="https://handyplugins.co/magic-login-pro/" rel="friend">Magic Login Pro</a> – Easy, secure, and passwordless authentication for WordPress.
+* <a href="https://handyplugins.co/sessionquota-pro/" rel="friend">SessionQuota Pro</a> – Limit concurrent sessions in WordPress.
+* <a href="https://handyplugins.co/stream-integration-pro/" rel="friend">Stream Integration Pro</a> – Upload, sync, restore, and manage WordPress videos with Cloudflare Stream.
+* <a href="https://handyplugins.co/easy-text-to-speech/" rel="friend">Easy Text-to-Speech</a> – Convert written content into high-quality synthesized speech for WordPress.
+* <a href="https://handyplugins.co/handywriter/" rel="friend">Handywriter</a> – AI-powered writing assistant for WordPress.
+* <a href="https://handyplugins.co/paddlepress-pro/" rel="friend">PaddlePress PRO</a> – Paddle plugin for WordPress.
+* <a href="https://handyplugins.co/wp-accessibility-toolkit/" rel="friend">WP Accessibility Toolkit</a> – Tools to help make your WordPress site more accessible.
+* <a href="https://poweredcache.com/" rel="friend">Powered Cache</a> – Caching and optimization for WordPress to help improve PageSpeed and Core Web Vitals.
 
 == Installation ==
 
@@ -90,6 +103,11 @@ Yes, to ensure optimal performance and server stability, our service supports th
 4. CLI command for managing screenshots.
 
 == Changelog ==
+
+= 1.2 (April 19, 2026) =
+* Fixed plugin-check errors.
+* Tested with WP 7.0
+* Dependency updates.
 
 = 1.1 (November 20, 2025) =
 * Fixed plugin-check warnings.

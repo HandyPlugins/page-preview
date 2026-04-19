@@ -7,6 +7,10 @@
 
 namespace PagePreview\Utils;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 use const PagePreview\Constants\SCREENSHOT_ENDPOINT;
 use const PagePreview\Constants\SETTING_OPTION;
 
