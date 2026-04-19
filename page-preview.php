@@ -17,6 +17,10 @@
 
 namespace PagePreview;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 // Useful global constants.
 define( 'PAGE_PREVIEW_VERSION', '1.1' );
 define( 'PAGE_PREVIEW_DB_VERSION', '1.0' );

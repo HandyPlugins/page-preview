@@ -7,6 +7,10 @@
 
 namespace PagePreview\Settings;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 use PagePreview\PagePreviewer;
 use function PagePreview\Utils\get_eligible_post_types;
 use function PagePreview\Utils\is_local_site;

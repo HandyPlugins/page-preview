@@ -7,6 +7,10 @@
 
 namespace PagePreview;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 use \WP_CLI_Command as WP_CLI_Command;
 use \WP_CLI as WP_CLI;
 use const PagePreview\Constants\PREVIEW_URL_META_KEY;

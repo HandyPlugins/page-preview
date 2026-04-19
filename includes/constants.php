@@ -7,6 +7,10 @@
 
 namespace PagePreview\Constants;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 const SETTING_OPTION       = 'page_preview_settings';
 const DB_VERSION_OPTION    = 'page_preview_version';
 const PREVIEW_URL_META_KEY = 'page_preview_url';

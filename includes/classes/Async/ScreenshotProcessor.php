@@ -7,6 +7,10 @@
 
 namespace PagePreview\Async;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
+
 use \Page_Preview_WP_Background_Process as Page_Preview_WP_Background_Process;
 use PagePreview\PagePreviewer;
 
