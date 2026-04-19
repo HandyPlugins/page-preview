@@ -2,9 +2,9 @@
 Contributors:      handyplugins, m_uysl
 Tags:              page preview, preview, screenshot, page screenshot
 Requires at least: 6.0
-Tested up to:      6.9
+Tested up to:      7.0
 Requires PHP:      7.4
-Stable tag:        1.1
+Stable tag:        1.2
 License:           GPLv2 or later
 License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 Donate link:       https://handyplugins.co/donate/
@@ -103,6 +103,11 @@ Yes, to ensure optimal performance and server stability, our service supports th
 4. CLI command for managing screenshots.
 
 == Changelog ==
+
+= 1.2 (April 19, 2026) =
+* Fixed plugin-check errors.
+* Tested with WP 7.0
+* Dependency updates.
 
 = 1.1 (November 20, 2025) =
 * Fixed plugin-check warnings.
