@@ -7,3 +7,4 @@ webpack.config.babel.js
 gulpfile.babel.js
 postcss.config.js
 dist/
+vendor/
