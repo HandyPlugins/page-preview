@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@wpmudev/shared-ui": "2.12.24",
-    "10up-toolkit": "^6.5"
+    "10up-toolkit": "^7.0"
   },
   "engines": {
     "node": ">=18.0.0"
