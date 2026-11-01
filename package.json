@@ -25,7 +25,7 @@
     "plugin-check": "wp plugin check page-preview --exclude-directories=tests,bin,.github,.wordpress-org,node_modules,vendor,includes/package,assets,dist --exclude-files='.*' --ignore-warnings --ignore-codes=hidden_files"
   },
   "devDependencies": {
-    "@wpmudev/shared-ui": "2.12.24",
+    "@wpmudev/shared-ui": "2.12.27",
     "10up-toolkit": "^7.0"
   },
   "engines": {
